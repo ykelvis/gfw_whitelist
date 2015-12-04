@@ -77,6 +77,7 @@ var RULES = [
         ".speedtest.net",
         ".huazhu.com",
         ".saraba1st.com"
+        ".miaopai.com",
     ],
     //"ihipop"
     [
@@ -184,8 +185,6 @@ var RULES = [
         ".ggmm777.com",
         ".go2map.com",
         ".goodbabygroup.com",
-        ".google-analytics.com",
-        ".gtimg.com",
         ".gy9y.com",
         ".gzmama.com",
         ".haliyuya.com",
@@ -464,7 +463,6 @@ var RULES = [
         ".tenpay.com",
         ".meituan.com",
         ".120ask.com",
-        ".ebay.com",
         ".51cto.com",
         ".sdo.com",
         ".meilishuo.com",
