@@ -76,7 +76,7 @@ var RULES = [
         ".guokr.com",
         ".speedtest.net",
         ".huazhu.com",
-        ".saraba1st.com"
+        ".saraba1st.com",
         ".miaopai.com",
     ],
     //"ihipop"
