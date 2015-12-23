@@ -52,6 +52,7 @@ var RULES = [
     //custom-list
     [
         ".lofter.com",
+        ".weicaifu.com",
         ".letvimg.com",
         ".qiumibao.com",
         ".tuchong.net",
