@@ -64,6 +64,8 @@ var RULES = [
         ".dapenti.com",
         ".ptimg.org",
         ".zoopda.com",
+        ".bilibili.com",
+        ".acgvideo.com",
         ".zhanqi.tv",
         ".yixun.com",
         ".jd.com",
