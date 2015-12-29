@@ -82,6 +82,7 @@ var RULES = [
         ".speedtest.net",
         ".huazhu.com",
         ".saraba1st.com",
+        ".douyutv.com",
         ".miaopai.com",
     ],
     //"ihipop"
