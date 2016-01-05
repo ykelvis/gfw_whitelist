@@ -84,6 +84,7 @@ var RULES = [
         ".saraba1st.com",
         ".douyutv.com",
         ".miaopai.com",
+        ".wanmei.com",
     ],
     //"ihipop"
     [
