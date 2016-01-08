@@ -51,6 +51,7 @@ var RULES = [
     ],
     //custom-list
     [
+        ".videoincloud.com",
         ".lofter.com",
         ".weibopay.com",
         ".weicaifu.com",
