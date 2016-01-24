@@ -64,6 +64,7 @@ var RULES = [
         ".tuchong.com",
         ".letvcdn.com",
         ".letvcloud.com",
+        ".qiumibao.com",
         ".aixifan.com",
         ".dapenti.com",
         ".ptimg.org",
