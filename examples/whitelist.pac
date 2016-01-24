@@ -53,6 +53,7 @@ var RULES = [
     [
         ".videoincloud.com",
         ".lofter.com",
+        ".lecloud.com",
         ".weibopay.com",
         ".weicaifu.com",
         ".letvimg.com",
