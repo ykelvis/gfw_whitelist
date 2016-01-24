@@ -58,6 +58,8 @@ var RULES = [
         ".letvimg.com",
         ".qiumibao.com",
         ".tuchong.net",
+        ".lesports.com",
+        ".sohucs.com",
         ".tuchong.com",
         ".letvcdn.com",
         ".letvcloud.com",
