@@ -56,6 +56,7 @@ var RULES = [
         ".lecloud.com",
         ".weibopay.com",
         ".weicaifu.com",
+        "images-cn.ssl-images-amazon.com",
         ".letvimg.com",
         ".qiumibao.com",
         ".tuchong.net",
