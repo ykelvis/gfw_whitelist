@@ -75,6 +75,7 @@ var RULES = [
         ".zhanqi.tv",
         ".yixun.com",
         ".jd.com",
+        ".gtimg.com",
         ".zdmimg.com",
         ".appgame.com",
         ".qiniucdn.com",
