@@ -51,6 +51,7 @@ var RULES = [
     ],
     //custom-list
     [
+        ".dou.bz",
         ".videoincloud.com",
         ".lofter.com",
         ".lecloud.com",
