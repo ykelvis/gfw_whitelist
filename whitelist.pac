@@ -17,7 +17,7 @@
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-var IP_ADDRESS = 'www.abc.com:443'; // Need to change to a real address!!
+var IP_ADDRESS = '127.0.0.1:8080';
 
     /* * * * * * * * * * * * * * * * * * * * * * * * * * 
      *                                                 *
@@ -25,7 +25,7 @@ var IP_ADDRESS = 'www.abc.com:443'; // Need to change to a real address!!
      * Proxy type                                      *
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
-var PROXY_TYPE = 'HTTPS'; // or 'SOCKS5' or 'PROXY'
+var PROXY_TYPE = 'SOCKS5';
 
     // HTTPS 是用于 Chrome 的安全代理
     // http://www.chromium.org/developers/design-documents/secure-web-proxy
@@ -51,9 +51,31 @@ var RULES = [
     ],
     //custom-list
     [
+        ".videoincloud.com",
+        ".lofter.com",
+        ".lecloud.com",
+        ".weibopay.com",
+        ".weicaifu.com",
+        "images-cn.ssl-images-amazon.com",
+        ".letvimg.com",
+        ".qiumibao.com",
+        ".tuchong.net",
+        ".lesports.com",
+        ".sohucs.com",
+        ".tuchong.com",
+        ".letvcdn.com",
+        ".letvcloud.com",
+        ".qiumibao.com",
+        ".aixifan.com",
+        ".dapenti.com",
+        ".ptimg.org",
         ".zoopda.com",
+        ".bilibili.com",
+        ".acgvideo.com",
+        ".zhanqi.tv",
         ".yixun.com",
         ".jd.com",
+        ".gtimg.com",
         ".zdmimg.com",
         ".appgame.com",
         ".qiniucdn.com",
@@ -66,7 +88,10 @@ var RULES = [
         ".guokr.com",
         ".speedtest.net",
         ".huazhu.com",
-        ".saraba1st.com"
+        ".saraba1st.com",
+        ".douyutv.com",
+        ".miaopai.com",
+        ".wanmei.com",
     ],
     //"ihipop"
     [
@@ -148,7 +173,6 @@ var RULES = [
         ".didatuan.com",
         ".dipan.com",
         ".douban.fm",
-        ".doubleclick.net",
         ".dpfile.com",
         ".dream4ever.org",
         ".duapp.com",
@@ -175,8 +199,6 @@ var RULES = [
         ".ggmm777.com",
         ".go2map.com",
         ".goodbabygroup.com",
-        ".google-analytics.com",
-        ".gtimg.com",
         ".gy9y.com",
         ".gzmama.com",
         ".haliyuya.com",
@@ -317,7 +339,6 @@ var RULES = [
         ".wandoujia.com",
         ".wdjimg.com",
         ".web887.com",
-        ".wikipedia.org",
         ".williamlong.info",
         ".woniu.com",
         ".wordpress.org",
@@ -456,7 +477,6 @@ var RULES = [
         ".tenpay.com",
         ".meituan.com",
         ".120ask.com",
-        ".ebay.com",
         ".51cto.com",
         ".sdo.com",
         ".meilishuo.com",
@@ -689,7 +709,6 @@ var RULES = [
         ".tianji.com",
         ".kugou.com",
         ".house365.com",
-        ".flickr.com",
         ".xiazaiba.com",
         ".aipai.com",
         ".sodu.org",
