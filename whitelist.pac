@@ -52,6 +52,9 @@ var RULES = [
     //custom-list
     [
         ".nosdn.com",
+        ".lphbs.com",
+        ".cloudcdn.net",
+        ".wscdns.com",
         ".127.net",
         ".dou.bz",
         ".videoincloud.com",
