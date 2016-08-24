@@ -2476,7 +2476,7 @@ var domains = {
   "1-apple.com.tw": 1
 };
 
-var proxy = "SOCKS5 127.0.0.1:8080;";
+var proxy = "HTTP 127.0.0.1:8080;";
 
 var direct = 'DIRECT;';
 
