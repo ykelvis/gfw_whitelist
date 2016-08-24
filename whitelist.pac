@@ -25,7 +25,7 @@ var IP_ADDRESS = '127.0.0.1:8080';
      * Proxy type                                      *
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
-var PROXY_TYPE = 'HTTP';
+var PROXY_TYPE = 'HTTPS';
 
     // HTTPS 是用于 Chrome 的安全代理
     // http://www.chromium.org/developers/design-documents/secure-web-proxy
