@@ -60,6 +60,7 @@ var RULES = [
         ".dou.bz",
         ".videoincloud.com",
         ".lofter.com",
+        ".ikafan.com",
         ".lecloud.com",
         ".weibopay.com",
         ".weicaifu.com",
