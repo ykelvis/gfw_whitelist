@@ -351,7 +351,6 @@ var RULES = [
         ".woniu.com",
         ".wordpress.org",
         ".wrating.com",
-        ".wsj.com",
         ".www.renren.com",
         ".xi666.com",
         ".xiachufang.com",
