@@ -480,6 +480,7 @@ var RULES = [
         ".qidian.com",
         ".ctrip.com",
         ".cnbeta.com",
+        ".cnbetacdn.com",
         ".tom.com",
         ".tenpay.com",
         ".meituan.com",
