@@ -51,6 +51,7 @@ var RULES = [
     ],
     //custom-list
     [
+        ".bipush.com",
         ".ip-cdn.com",
         ".nosdn.com",
         ".lphbs.com",
