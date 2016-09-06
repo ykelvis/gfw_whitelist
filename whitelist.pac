@@ -388,6 +388,7 @@ var RULES = [
     //alexa cn 500
     [
         ".baidu.com",
+        ".baidustatic.com",
         ".qq.com",
         ".taobao.com",
         ".163.com",
