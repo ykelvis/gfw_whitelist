@@ -17,7 +17,7 @@
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-var IP_ADDRESS = '127.0.0.1:8080';
+var IP_ADDRESS = '192.168.1.155:8388'
 
     /* * * * * * * * * * * * * * * * * * * * * * * * * * 
      *                                                 *
@@ -25,7 +25,7 @@ var IP_ADDRESS = '127.0.0.1:8080';
      * Proxy type                                      *
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
-var PROXY_TYPE = 'SOCKS';
+var PROXY_TYPE = 'PROXY';
 
     // HTTPS 是用于 Chrome 的安全代理
     // http://www.chromium.org/developers/design-documents/secure-web-proxy
@@ -51,6 +51,9 @@ var RULES = [
     ],
     //custom-list
     [
+        ".huxiu.com",
+        ".bipush.com",
+        ".ip-cdn.com",
         ".nosdn.com",
         ".lphbs.com",
         ".cloudcdn.net",
@@ -59,6 +62,7 @@ var RULES = [
         ".dou.bz",
         ".videoincloud.com",
         ".lofter.com",
+        ".ikafan.com",
         ".lecloud.com",
         ".weibopay.com",
         ".weicaifu.com",
@@ -349,7 +353,6 @@ var RULES = [
         ".woniu.com",
         ".wordpress.org",
         ".wrating.com",
-        ".wsj.com",
         ".www.renren.com",
         ".xi666.com",
         ".xiachufang.com",
@@ -385,6 +388,7 @@ var RULES = [
     //alexa cn 500
     [
         ".baidu.com",
+        ".baidustatic.com",
         ".qq.com",
         ".taobao.com",
         ".163.com",
@@ -479,6 +483,7 @@ var RULES = [
         ".qidian.com",
         ".ctrip.com",
         ".cnbeta.com",
+        ".cnbetacdn.com",
         ".tom.com",
         ".tenpay.com",
         ".meituan.com",
@@ -649,6 +654,7 @@ var RULES = [
         ".hf365.com",
         ".ad1111.com",
         ".zhihu.com",
+        ".zhimg.com",
         ".blueidea.com",
         ".net114.com",
         ".07073.com",
