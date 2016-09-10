@@ -51,6 +51,7 @@ var RULES = [
     ],
     //custom-list
     [
+        ".ssports.com",
         ".nimingban.com",
         ".kukuku.cc",
         ".huxiu.com",
