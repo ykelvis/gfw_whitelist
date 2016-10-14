@@ -51,6 +51,8 @@ var RULES = [
     ],
     //custom-list
     [
+        ".panda.tv",
+        ".pdim.gs",
         ".douyu.com",
         ".doubanio.com",
         ".huomao.com",
