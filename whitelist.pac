@@ -1,56 +1,17 @@
-/*
-            gfw_whitelist.pac
+var PROXY_METHOD = "PROXY 127.0.0.1:8080;";
 
-            GFW Whitelist
-            - inspired by autoproxy and chnroutes
-
-            v1.2
-            Author: n0gfwall0@gmail.com
-            License: MIT License
-
-                                                          */
-
-    /* * * * * * * * * * * * * * * * * * * * * * * * * * 
-     *                                                 *
-     *  一定要换成你的ip地址                           *
-     *  Replace your proxy ip-address:port here!!      *
-     *                                                 *
-     * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-var IP_ADDRESS = '127.0.0.1:8080';
-
-    /* * * * * * * * * * * * * * * * * * * * * * * * * * 
-     *                                                 *
-     * 代理类型 (翻墙一般适用 SOCKS 或 HTTPS)          *
-     * Proxy type                                      *
-     *                                                 *
-     * * * * * * * * * * * * * * * * * * * * * * * * * */
-var PROXY_TYPE = 'PROXY';
-
-    // HTTPS 是用于 Chrome 的安全代理
-    // http://www.chromium.org/developers/design-documents/secure-web-proxy
-
-    /* * * * * * * * * * * * * * * * * * * * * * * * * */
-var PROXY_METHOD = PROXY_TYPE + ' ' + IP_ADDRESS;
-
-
-    // A very long list. Hopefully chrome will cache it.
-
-    // Bypass top Chinese sites
-    // Sources:
-    // (1) Custom list
-    // (2) https://dl-web.dropbox.com/u/3241202/apps/chn-cdn/dnsmasq.server.conf - ihipop
-    // (3) @xream's whitelist
-    // (4) Alexa 500
-
-    // Feel free to add or edit custom list
 var RULES = [
-    //cn
     [
         ".cn"
     ],
-    //custom-list
-    [
+    [ 
+        ".bcy.net",
+        ".ourdvsss.com",
+        ".bcyimg.com",
+        ".suki.moe",
+        ".videojj.com",
+        ".le.com",
+        ".yfcloud.com",
         ".panda.tv",
         ".pdim.gs",
         ".douyu.com",
@@ -60,6 +21,7 @@ var RULES = [
         ".ssports.com",
         ".nimingban.com",
         ".kukuku.cc",
+        ".koukuko.ccom",
         ".huxiu.com",
         ".bipush.com",
         ".ip-cdn.com",
@@ -112,11 +74,9 @@ var RULES = [
         ".miaopai.com",
         ".wanmei.com",
     ],
-    //"ihipop"
     [
         ".icson.com"
     ],
-    //"xream"
     [
         ".0x110.com",
         ".100tjs.com",
@@ -394,7 +354,6 @@ var RULES = [
         ".zhongsou.net",
         ".zx915.com"
     ],
-    //alexa cn 500
     [
         ".baidu.com",
         ".baidustatic.com",
@@ -811,35 +770,9 @@ function FindProxyForURL(url, host) {
     // skip local hosts
     if (isPlainHostName(host) === true || check_ipv4() === true || rule_filter(isDomain) === true) {
         return "DIRECT";
-
     } else {
             // if none of above cases, it is always safe to use the proxy
             return PROXY_METHOD;
     }
 
 }
-
-
-/*
-    MIT License
-    Copyright (C) 2012 n0gfwall0@gmail.com
-
-    Permission is hereby granted, free of charge, to any person obtaining a 
-    copy of this software and associated documentation files (the "Software"), 
-    to deal in the Software without restriction, including without limitation 
-    the rights to use, copy, modify, merge, publish, distribute, sublicense, 
-    and/or sell copies of the Software, and to permit persons to whom the 
-    Software is furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in 
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-    IN THE SOFTWARE.
-
-                                                                              */
